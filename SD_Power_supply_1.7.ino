@@ -31,7 +31,7 @@
 #define BLINK_1_INTERVAL 700          // LED blink interval 1, msec
 #define BLINK_2_INTERVAL 70           // LED blink interval 2, msec
 #define SHOW_LCD_INTERVAL 150         // Interval at which the LCD updates
-#define SERIAL_SEND_INTERVAL 0.1      // -in minutes- We send data at this interval via Serial port
+#define SERIAL_SEND_INTERVAL 0.1      // -in minutes- We send data at this interval via Serial port (0.1 means update at every 6 seconds
 
 #define SW_VERSION   1.7 
 
