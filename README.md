@@ -1,3 +1,9 @@
+TO DO:
+-Move input buttons to pin 2 and to pin 3 to prepare them to be used via INT0 and INT1 for faster protection and control
+-evaluate the possibility to set voltage while STOP and Current limit while RUN
+-test the proper External Reference Voltage by comparing the reading of ADC BEFORE and AFTER setting it with a known value
+-lower the Current measurement resistor to milliOhm and measure the voltage drop with a precision comparator or opamp for greater resolution at low current
+
 /*
  * Voltage divider
  * R7 from +V to ADCin = 50.1 kOhm
@@ -6,7 +12,8 @@
  * D8 > protection relay
  * D9 > informational LED
  * 
- * 
+ *
+ * V_1.7 - RUN/STOP function optimisation. Blink SLOW and blink FAST added for the two state. SW version on LCD
  * V_1.6.1 - Move fixed text to EEPROM for space
  * V_1.6 - Digital potentiometer in circuit
  * V_1.5 - Free the pins for SPI potentimeter. Relay to D4, LED to D2.
