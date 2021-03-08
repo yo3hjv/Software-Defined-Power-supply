@@ -12,7 +12,7 @@ TO DO:
  * D8 > protection relay
  * D9 > informational LED
  * 
- *
+ * V_1.8 - ICONs added for RUN/STOP
  * V_1.7 - RUN/STOP function optimisation. Blink SLOW and blink FAST added for the two state. SW version on LCD
  * V_1.6.1 - Move fixed text to EEPROM for space
  * V_1.6 - Digital potentiometer in circuit
